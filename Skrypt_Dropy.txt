@@ -1,0 +1,29 @@
+drop table DOSTAWCA 
+cascade constraints;
+
+drop table FAKTURY 
+cascade constraints;
+
+drop table LOKALIZACJA
+cascade constraints;
+
+drop table NADZÓR
+cascade constraints;
+
+drop table PRACOWNIA
+cascade constraints;
+
+drop table PRACOWNIk
+cascade constraints;
+
+drop table PROJ_PRAC
+cascade constraints;
+
+drop table PROJEKT
+cascade constraints;
+
+drop table WYKONAWCA
+cascade constraints;
+
+drop table ZLECENIODAWCA
+cascade constraints;
