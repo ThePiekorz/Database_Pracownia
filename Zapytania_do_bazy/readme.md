@@ -1,4 +1,4 @@
-Przykładowe widoki utworzone na podanych wcześniej danych:
+Przykładowe widoki utworzone na podanych wcześniej danych
 
 Wyświetla Imię i Nazwisko projektanta dla każdego projektu.
 
