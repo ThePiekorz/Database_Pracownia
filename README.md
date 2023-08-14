@@ -1,6 +1,6 @@
 # Database_Pracownia
 
-Projekt miał na celu stworzenie Bazy Danych dla pracowni projektowej realizującej opracowanie projektów sieci elektroenergetycznych, w celu optymalizacji zarządzania projektami.
+Projekt miał na celu stworzenie Bazy Danych Oracle SQL dla pracowni projektowej realizującej opracowanie projektów sieci elektroenergetycznych, w celu optymalizacji zarządzania projektami.
 
 ## Założenia funkcjonalne:
 
