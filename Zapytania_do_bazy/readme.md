@@ -1,6 +1,6 @@
-Przykładowe widoki utworzone na podanych wcześniej danych
+# Przykładowe widoki utworzone na podanych wcześniej danych
 
-Wyświetla Imię i Nazwisko projektanta dla każdego projektu.
+## Wyświetla Imię i Nazwisko projektanta dla każdego projektu.
 
 ![alt text](https://github.com/ThePiekorz/Database_Pracownia/blob/main/Zapytania_do_bazy/Zapytanie1.png)
 
@@ -10,7 +10,7 @@ FROM PROJEKT
 INNER JOIN PRACOWNIK ON PROJEKT.pracownik_id_pracownik=PRACOWNIK.ID_pracownik;
 ```
 
-Wyświetla ilość obsługiwanych wykonawców
+## Wyświetla ilość obsługiwanych wykonawców
 
 ![alt text](https://github.com/ThePiekorz/Database_Pracownia/blob/main/Zapytania_do_bazy/Zapytanie2.png)
 
@@ -21,7 +21,7 @@ LEFT JOIN Dostawca ON Wykonawca.dostawca_id_dostawcy = Dostawca.id_dostawcy
 GROUP BY nazwa_dostawcy;
 ```
 
-Wyświetla bilans przychodu dla projektu oraz jego wstępną wycene
+## Wyświetla bilans przychodu dla projektu oraz jego wstępną wycene
 
 ![alt text](https://github.com/ThePiekorz/Database_Pracownia/blob/main/Zapytania_do_bazy/Zapytani3.png)
 
@@ -33,7 +33,7 @@ where p.faktury_id_faktura=f.id_faktura;
 SELECT * FROM bilans;
 ```
 
-Wyświetla pracowników, którzy jednocześnie są przełożonymi.
+## Wyświetla pracowników, którzy jednocześnie są przełożonymi.
 
 ![alt text](https://github.com/ThePiekorz/Database_Pracownia/blob/main/Zapytania_do_bazy/Zapytanie4.png)
 
@@ -41,7 +41,7 @@ Wyświetla pracowników, którzy jednocześnie są przełożonymi.
 select imie, nazwisko from pracownik where pracownik_id_pracownik is null;
 ```
 
-Wyświetla ilość pracowników zatrudnianych przez daną pracownie.
+## Wyświetla ilość pracowników zatrudnianych przez daną pracownie.
 
 ![alt text](https://github.com/ThePiekorz/Database_Pracownia/blob/main/Zapytania_do_bazy/Zapytanie5.png)
 
